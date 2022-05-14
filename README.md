@@ -4,6 +4,8 @@
 
 Easily enter information pertaining to a particular employee to add them to your database.
 
+![An example of a generated team profile.](assets/images/screenshots/generator-demo.png)
+
 ## Table of Contents 🔍
 
 - [Description](#description)
