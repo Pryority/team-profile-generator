@@ -38,7 +38,7 @@ const questions = [{
 const employees = [];
 const generateEmployees = () => {
     inquirer
-        .prompt(qs)
+        .prompt(questions)
         .then((ans1) => {
             inquirer
                 .prompt([
@@ -109,26 +109,3 @@ const generateEmployees = () => {
 };
 
 generateEmployees();
-
-const checkEmployeeType = (role) => {
-
-};
-
-const handleNewEmployee = () => {
-
-    inquirer
-        .prompt([
-            {
-                type: 'confirm',
-                name: 'newEmployee',
-                message: `Would you like to add another employee?`
-            },
-        ])
-        .then((answer) => {
-            if (!answer.newEmployee) {
-                console.log(`Employees have been added! 👤`);
-                return;
-            }
-            createNewEmployee();
-        })
-};

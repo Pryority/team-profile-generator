@@ -1,0 +1,42 @@
+<div class="card employee-card">
+    <div class="card-header">
+        <h2 class="card-title">{{ name }}</h2>
+        <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>{{ role }}</h3>
+    </div>
+    <div class="card-body">
+        <ul class="list-group">
+            <li class="list-group-item">ID: {{ id }}</li>
+            <li class="list-group-item">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
+            <li class="list-group-item">GitHub: <a href="https://github.com/{{ github }}" target="_blank" rel="noopener noreferrer">{{ github }}</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container flex flex-col p-5">
+    <div class="bg-purple-400 p-2">
+        <h2 id="name" class="card-title text-start p-2 font-bold">{{ name }}</h2>
+        <div class="flex flex-row">
+            <i class="fa-solid fa-user-graduate justify-center p-2"></i>
+            <p id="role" class="card-text p-1">{{ role }}</p>
+        </div>
+        <div>
+            <ul class="p-5 space-y-2">
+                <li class="text-start">
+                    <div>
+                        <p class="text-start">ID:<span class="ml-2">4</span></p>                    
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p class="text-start">Email:<span class="ml-2">matthewapryor@gmail.com</span></p>                    
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p class="text-start">GitHub:<span class="ml-2">pryority</span></p>                    
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
