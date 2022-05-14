@@ -1,7 +1,5 @@
 const Employee = require('../lib/Employee.js');
 
-// jest.mock('../lib/Potion.js');
-
 test('creates an employee object', () => {
     const employee = new Employee('Matt', 'matthewapryor@gmail.com', 0);
 
