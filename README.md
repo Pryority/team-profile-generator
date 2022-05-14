@@ -22,6 +22,9 @@ Clone this repo locally on your computer.
 
 In the terminal, run `node index.js` to begin the application. Follow the prompts to generate your team of employees.
 
+Use this walkthrough to help guide you:
+[https://youtu.be/85GRwUuAh1k](https://youtu.be/85GRwUuAh1k)
+
 ## License 💿
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
